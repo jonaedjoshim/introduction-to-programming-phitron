@@ -1,0 +1,2 @@
+Dereferencing of pointer : 100
+Value of x after dereferencing : 200

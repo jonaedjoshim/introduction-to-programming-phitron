@@ -1,0 +1,10 @@
+1.Explain why we need long long int data type? 
+Answer: Every data type has a limit. A normal int takes 4 bytes of space, which can hold numbers up to about 2 billion. But if we need to work with much bigger numbers (like 10 or 15 digits), a simple int can't handle it. That’s why we use long long int. It takes 8 bytes of space and can store very large numbers. We use %lld to print or take input for it.
+
+2.Write all the rules for naming a variable in C programming.
+Answer: To name a variable in C, you have to follow these simple rules:
+
+Start right: We must start with a letter (a-z) or an underscore (_). We cannot start with a number.
+No special signs: We can't use signs like @, #, or $. Only the underscore (_) is allowed.
+No spaces: We can't put a space in a variable name. If the name is long, use camelCase (like myAge) or underscores (like my_age).
+No reserved words: We can't use names that C already uses for its own work, like int, float, or return.
